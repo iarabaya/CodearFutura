@@ -38,4 +38,17 @@ function sumarArray(array){
     return total;
 }
 
-console.log(sumarArray(numeros));
+let listaNumeros = [1,34,20,19,5,8];
+let nuevaLista = listaNumeros.map( obj => { 
+    if(obj % 2 === 0){
+        return "El numero "+ obj +" es par.";
+    }else{
+        return "El numero "+ obj +" es impar.";
+    }
+});
+console.log(nuevaLista);
+
+//array de strings y filtrar en nombresCortos aquellos que tengan menos de 5 letras
+let nombres = ["Carla", "Luciana", "Florencia", "Sol", "Luz", "Marianela", "Ana"];
+let nombresCortos = nombres.filter( nombre => nombre.length < 5 );
+console.log(nombresCortos); // ["Sol", "Luz", "Ana"]
