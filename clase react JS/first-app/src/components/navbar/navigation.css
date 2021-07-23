@@ -1,0 +1,7 @@
+.navbar-collapse a{
+    margin: 10px;
+    color: rgb(100, 100, 247);
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+}

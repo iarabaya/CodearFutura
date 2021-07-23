@@ -4,7 +4,7 @@ import './footer.css';
 export default function Footer() {
     return (
         <footer>
-            <h1>Este es el Footer</h1>
+            <p>Este es el Footer</p>
         </footer>
     )
 }
