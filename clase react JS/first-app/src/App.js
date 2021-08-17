@@ -5,6 +5,7 @@ import Navigation from './components/navbar/Navigation';
 import Footer from './components/footer/Footer';
 import Home from './components/home/Home';
 import Contacto from './components/contacto/Contacto';
+import Curriculum from './components/cv/Curriculum.js';
 
 
 function App() {
@@ -18,6 +19,10 @@ function App() {
 
         <Route exact path='/contacto'>
           <Contacto/>
+        </Route>
+
+        <Route exact path='/curriculum'>
+          <Curriculum/>
         </Route>
       </Switch>
       <Footer/>
